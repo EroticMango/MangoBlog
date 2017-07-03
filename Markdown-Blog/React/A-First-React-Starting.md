@@ -1,13 +1,13 @@
-# 开张
-### 安装开发环境
-#### 1. 安装Homebrew
+# 开张篇
+## 安装开发环境
+### 1. 安装Homebrew
 打开**Terminal**, 输入[命令]():
 ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
 
 __验证安装:__
 ```brew -v```
 
-#### 2. 安装Node.js(npm)
+### 2. 安装Node.js(npm)
 **安装:** 这里[跳转](http://nodejs.cn)进入下载并**手动**安装(安装完node.js会自动配置npm管理)
 
 **替换:** nmp源地址, 命令行:
@@ -20,19 +20,19 @@ $ npm config get registry
 
 **推荐:** 使用cnpm(淘宝定制的支持gzip压缩)命令行工具替换默认的npm命令:
 ```npm install -g cnpm --registry=https://registry.npm.taobao.org```
-#### 3. 安装WebStorm
-&emsp; __1.__ IDE建议使用[WebStorm](http://www.jetbrains.com/webstorm/), 优点自不必多说, 看普及率就知道了, SublimeText也不错, 需要安装一些拓展和插件
+### 3. 安装WebStorm
+##### ⅰ. IDE建议使用[WebStorm](http://www.jetbrains.com/webstorm/), 优点自不必多说, 看普及率就知道了, SublimeText也不错, 需要安装一些拓展和插件
 &emsp; PJ步骤: 
 ![WebStorm](http://testmuta.oss-cn-hangzhou.aliyuncs.com/iOSUpdateFolder/WebStorm.png)
 
-&emsp; **2.** 建议安装**watchman**, 
+##### ⅱ. 建议安装**watchman**, 
 &emsp; &emsp; 这个插件用于监控bug文件和文件变化 ，并且可以触发指定的操作,在终端中输入下面的[命令]():
 ```brew install watchman```
-&emsp; **3.** 强烈建议安装**Flow**,
+##### ⅲ. 强烈建议安装**Flow**,
 &emsp; &emsp; 这是一个 JavaScript 的静态类型检查器，建议安装它，以方便找出代码中可能存在的类型错误,在终端输入下面的代码,如果提示command not found,请加上sudo获得最高权限
 ```brew install flow```
 
-#### 4. 使用create-react-app快速构建React开发环境
+### 4. 使用create-react-app快速构建React开发环境
 **安装create-react-app开发工具**(没安装cnpm的可以使用默认的npm命令)
 ```cnpm install -g create-react-app```
 
@@ -45,7 +45,7 @@ $ npm start
 
 随后在浏览器中打开:[http://localhost:3000/]()
 
-#### 5. Hello world
+### 5. Hello world
 ```$ open first-react/src/App.js```
 进入**修改**里面的一些代码:
 ```js
@@ -71,7 +71,7 @@ export default App;
 ```
 修改后打开:[http://localhost:3000/]()即可查看修改结果
 
-#### Webstorm快捷键
+### 6. 附: Webstorm快捷键
 ```
 MAC苹果系统：
 快捷键	作用
