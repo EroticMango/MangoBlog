@@ -27,10 +27,10 @@ $ npm config get registry
 ![WebStorm](http://testmuta.oss-cn-hangzhou.aliyuncs.com/iOSUpdateFolder/WebStorm.png)
 
 ##### ⅱ. 建议安装**watchman**, 
-&emsp; &emsp; 这个插件用于监控bug文件和文件变化 ，并且可以触发指定的操作,在终端中输入下面的[命令]():
+&emsp;这个插件用于监控bug文件和文件变化 ，并且可以触发指定的操作,在终端中输入下面的[命令]():
 ```brew install watchman```
 ##### ⅲ. 强烈建议安装**Flow**,
-这是一个 JavaScript 的静态类型检查器，以方便找出代码中可能存在的类型错误,在终端输入下面的代码, 若提示command not found, 签名加上sudo获得最高权限
+&emsp;这是一个 JavaScript 的静态类型检查器，以方便找出代码中可能存在的类型错误,在终端输入下面的代码, 若提示command not found, 签名加上sudo获得最高权限
 ```brew install flow```
 
 ### 4. 使用create-react-app快速构建React开发环境
